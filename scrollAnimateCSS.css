@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+header {
+    width: 100%;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #eee;
+    list-style-type: none;
+    margin: 2px;
+    border-right: 1px solid white;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translateX(-100);
+}
+
+.shown {
+    opacity: 1;
+    transition: 1s;
+
+}
